@@ -7,46 +7,66 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
+<!-- TemplateParam name="Home" type="boolean" value="true" -->
+<!-- TemplateParam name="Steven Spielberg" type="boolean" value="true" -->
+<!-- TemplateParam name="Martin Scorcesse " type="boolean" value="true" -->
+<!-- TemplateParam name="Quentin Taraentino" type="boolean" value="true" -->
+<!-- TemplateParam name="Alfred Hitchcock" type="boolean" value="true" -->
+<!-- TemplateParam name="Christopher Nolan" type="boolean" value="true" -->
 </head>
 
 <body>
-<p><a href="../index.html">HOME</a></p>
-<!-- TemplateBeginEditable name="Home" -->
-<h1>Home</h1>
 <p>&nbsp;</p>
-<!-- TemplateEndEditable -->
 <p><a href="../steven-spielberg/">Steven Spielberg</a></p>
-<!-- TemplateBeginEditable name="s.spielberg" -->
-<p><a href="../steven-spielberg/bio.html">Bio</a></p>
-<p><a href="../steven-spielberg/saving-private-ryan.html">Saving Private Ryan</a></p>
-<p><a href="../steven-spielberg/catch-me-if-you-can.html">Catch me If  You can</a></p>
-<p><a href="../steven-spielberg/jurrasic-park.html">Jurrasic Park</a></p>
-<!-- TemplateEndEditable -->
-<p><a href="../martin-scorcesse/">Martin Scorcesse </a></p>
-<!-- TemplateBeginEditable name="M. Scorcesse" -->
-<p><a href="../martin-scorcesse/bio.html">Bio</a></p>
-<p><a href="../martin-scorcesse/wolf-of-wallstreet.html">Wolf Of Wallstreet</a></p>
-<p><a href="../martin-scorcesse/goodfellas.html">Goodfellas</a></p>
-<p><a href="../martin-scorcesse/casino.html">Casino</a></p>
-<!-- TemplateEndEditable -->
-<p align="left"><a href="../quentin-tarantino/">Quentin Tarantino</a><!-- TemplateBeginEditable name="q.tarantino" --><br />
-  <a href="../quentin-tarantino/bio.html">Bio</a><br />
-  <a href="../quentin-tarantino/django-unchained.html">Django Unchained</a><br />
-  <a href="../quentin-tarantino/inglourous-basterds.html">Ignlorous Basterds</a><br />
-  <a href="../quentin-tarantino/pulp-finction.html">Pulp Fiction </a><br />
-<!-- TemplateEndEditable --></p>
-<p><a href="../alfred-hithcock/">Alfred Hitchcock </a></p>
-<a href="../alfred-hithcock/bio.html"></a><!-- TemplateBeginEditable name="A. Hitchcock" -->
-<p><a href="../alfred-hithcock/bio.html">Bio</a></p>
-<p><a href="../alfred-hithcock/mr-and-ms-smith.html">Mr and Ms Smith</a></p>
-<p><a href="../alfred-hithcock/to-catch-a-thief.html">To Catch a Thief</a></p>
+<!-- TemplateBeginIf cond="_document['Steven Spielberg']" -->
+<ul>
+  <li><a href="../steven-spielberg/bio.html">Bio</a></li>
+  <li><a href="../steven-spielberg/saving-private-ryan.html">Saving Private Ryan</a></li>
+  <li><a href="../steven-spielberg/catch-me-if-you-can.html">Catch Me If You can</a></li>
+  <li><a href="../steven-spielberg/jurrasic-park.html">Jurassic Park</a></li>
+</ul>
+<!-- TemplateBeginEditable name="Steven Speilberg" -->
 <p>&nbsp;</p>
-<!-- TemplateEndEditable -->
+<!-- TemplateEndEditable --><!-- TemplateEndIf -->
+<p><a href="../martin-scorcesse/">Martin Scorcesse </a></p>
+<!-- TemplateBeginIf cond="_document['Martin Scorcesse ']" -->
+<ul>
+  <li><a href="../martin-scorcesse/bio.html">Bio</a></li>
+  <li><a href="../martin-scorcesse/wolf-of-wallstreet.html">Wolf Of Wallstreet</a></li>
+  <li><a href="../martin-scorcesse/goodfellas.html">Goodfellas</a></li>
+  <li><a href="../martin-scorcesse/casino.html">Casino</a></li>
+</ul>
+<!-- TemplateBeginEditable name="Martin Scorcesse" -->
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<!-- TemplateEndEditable --><!-- TemplateEndIf -->
+<p align="left"><a href="../quentin-tarantino/">Quentin Tarantino</a></p>
+<!-- TemplateBeginIf cond="_document['Quentin Taraentino']" -->
+<ul>
+  <li><a href="../quentin-tarantino/bio.html">Bio</a></li>
+  <li><a href="../quentin-tarantino/django-unchained.html">Django Unchained</a></li>
+  <li><a href="../quentin-tarantino/inglourous-basterds.html">Inglorous Bastards</a></li>
+  <li><a href="../quentin-tarantino/pulp-finction.html">Pulp Fiction</a></li>
+</ul>
+<!-- TemplateBeginEditable name="Quentin Tarraentino" -->
+<p>&nbsp;</p>
+<!-- TemplateEndEditable --><!-- TemplateEndIf -->
+<p><a href="../alfred-hithcock/">Alfred Hitchcock </a></p>
+<!-- TemplateBeginIf cond="_document['Alfred Hitchcock']" -->
+<ul>
+  <li><a href="../alfred-hithcock/bio.html">Bio</a></li>
+  <li><a href="../alfred-hithcock/to-catch-a-thief.html">To Catch a Thief</a></li>
+  <li><a href="../alfred-hithcock/mr-and-ms-smith.html">Mr and Mrs Smith</a></li>
+</ul>
+<!-- TemplateBeginEditable name="Alfred Hithcock" --><!-- TemplateEndEditable --><!-- TemplateEndIf --><a href="../alfred-hithcock/bio.html"></a>
 <p><a href="../christopher-nolan/">Christpoher Nolan</a></p>
-<!-- TemplateBeginEditable name="C. Nolan" -->
-<p><a href="../christopher-nolan/bio.html">Bio</a></p>
-<p><a href="../christopher-nolan/the-dark-knight.html">The Dark Knight</a></p>
-<p><a href="../christopher-nolan/the-dark-knight-rises.html">The Dark Knight Rises</a></p>
-<!-- TemplateEndEditable -->
+<!-- TemplateBeginIf cond="_document['Christopher Nolan']" -->
+<ul>
+  <li><a href="../christopher-nolan/bio.html">Bio</a></li>
+  <li><a href="../christopher-nolan/the-dark-knight.html">The Dark Knight</a></li>
+  <li><a href="../christopher-nolan/the-dark-knight-rises.html">The Dark Knight Rises</a></li>
+</ul>
+<!-- TemplateEndIf -->
+<!-- TemplateBeginEditable name="Christopher Nolan" -->Eight years after the Joker's reign of anarchy, the Dark Knight, with the help of the enigmatic Selina, is forced from his imposed exile to save Gotham City, now on the edge of total annihilation, from the brutal guerrilla terrorist Bane.<!-- TemplateEndEditable -->
 </body>
 </html>
